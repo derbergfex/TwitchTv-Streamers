@@ -1,0 +1,128 @@
+h1
+{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 200;
+    color: white;
+}
+  
+img
+{
+    width: 60px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin: 9px; 
+}
+
+#list1
+{
+    float: left;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+#list2
+{
+    float: right;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 200;
+    margin: 23px 0px 0px 0px;
+    color: white;
+}
+
+ul
+{
+    list-style: none;
+}
+
+#list1 li
+{
+    margin: 0px 0px 0px 0px;
+}
+
+#list2 li
+{
+    margin: 0px 0px 59px 0px;
+}
+
+.well
+{
+    max-height: 700px; 
+    width: 760px;
+    float: center;
+    background-color: black;
+}
+
+#main
+{
+    margin: 20px 0px 0px 0px;
+}
+#filterList
+{
+    float: right;
+    text-align: right;
+    margin: -60px 0px 0px 0px;
+}
+
+a, a:visited, a:hover, a:active 
+{
+    color: inherit;
+}
+
+#filterList li 
+{
+    cursor: pointer;
+}
+
+#displayArea
+{
+    color: white;
+}
+
+/*Adjusting for smaller devices via media queries*/
+
+@media screen and (max-width: 760px)
+{
+    .well 
+    {
+        width: 100%;
+    }
+
+    h1
+    {
+        width: 15%;
+    }
+
+    #list1
+    {
+        width: 20%;
+        margin: 0% 0% 0% 0%;
+        float: left;
+    }
+    #list2
+    {
+        width: 20%;
+        margin: 5% 25% 0% 0%;
+        float: right;   
+    }
+        
+    img
+    {
+        width: 100%;
+        margin: 0% 0% 0% 0%;  
+    }
+    #list1 li
+    {
+        margin: 40% 0% 0% 0%;
+    }
+    #list2 li
+    {
+        margin: -10% 0% 0% 0%;
+    }
+}
+
+
